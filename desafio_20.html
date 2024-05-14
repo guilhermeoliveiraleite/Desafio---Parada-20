@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio 20</title>
+        <script src="js/desafio20.js" defer></script>
+    </head>
+    <style>
+        body{
+            background-color: #7e85e7;
+           
+        }
+       div{text-align: center;
+            margin-top: 20px;
+         }
+
+        #conteudo{
+            margin: auto;
+            width: 600px;
+            height: 100px;
+            border: 4px dashed #000000;
+             }
+             p{color: #f0f8ff;}
+    </style>
+    <body>
+        <div id="conteudo">
+            <p><strong>Calculadora de média</strong></p>
+        <input type="number" placeholder="Digite a primeira nota" id="n1">
+       
+
+        <input type="number" placeholder="Digite a segunda nota" id="n2">
+
+        <input type="number" placeholder="Digite a terceira nota" id="n3">
+
+        <button onclick="calcular_nota()">Calcular média</button>
+        </div>
+        <div id="resp"></div>
+    </body>
+</html>
